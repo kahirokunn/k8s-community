@@ -8,7 +8,7 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 --->
 # Multicluster Special Interest Group
 
-A Special Interest Group focused on solving common challenges related to the management of multiple Kubernetes clusters, and applications that exist therein. The SIG will be responsible for designing, discussing, implementing and maintaining API’s, tools and documentation related to multi-cluster administration and application management. This includes not only active automated approaches such as Cluster Federation, but also those that employ batch workflow-style continuous deployment systems like Spinnaker and others.  Standalone building blocks for these and other similar systems (for example a cluster registry), and proposed changes to kubernetes core where appropriate will also be in scope.
+SIG Multicluster develops and promotes Kubernetes-native APIs, libraries, conformance tests, and documentation that help applications and tools work across multiple Kubernetes clusters. The SIG standardizes portable interfaces for publishing cluster properties; describing, selecting, and accessing clusters; distributing workloads; and making Services available across clusters. It also supports common patterns for building multicluster controllers. Cluster provisioning and lifecycle management, and vendor-specific implementations of these interfaces, are outside the SIG's scope.
 
 The [charter](charter.md) defines the scope and governance of the Multicluster Special Interest Group.
 
